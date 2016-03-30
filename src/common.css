@@ -99,6 +99,15 @@ body > .select2-container.open {
     margin-top: -2px; /* FIXME hardcoded value :-/ */
 }
 
+.ui-select-container[theme="selectize"] .ui-select-search-hidden{
+    opacity: 0;
+    height: 0;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    border:0;
+}
+
 /* Bootstrap theme */
 
 /* Helper class to show styles when focus */
