@@ -6,15 +6,15 @@
   <div class="ui-select-match"></div>
   <div class="ui-select-dropdown select2-drop select2-with-searchbox select2-drop-active"
        ng-class="{'select2-display-none': !$select.open}">
-    <div class="select2-search" ng-class="{'ui-select-offscreen':!$select.searchEnabled}">
+    <div class="select2-search" ng-class="{'ui-select-offscreen': !$select.searchEnabled}">
       <input type="text" autocomplete="off" autocorrect="false" autocapitalize="off" spellcheck="false"
-        role="combobox"
-        aria-expanded="true"
-        aria-owns="ui-select-choices-{{ $select.generatedId }}"
-        aria-label="{{ $select.baseTitle }}"
-        aria-activedescendant="ui-select-choices-row-{{ $select.generatedId }}-{{ $select.activeIndex }}"
-        class="ui-select-search select2-input"
-        ng-model="$select.search">
+       role="combobox"
+       aria-expanded="true"
+       aria-owns="ui-select-choices-{{ $select.generatedId }}"
+       aria-label="{{ $select.baseTitle }}"
+       aria-activedescendant="ui-select-choices-row-{{ $select.generatedId }}-{{ $select.activeIndex }}"
+       class="ui-select-search select2-input"
+       ng-model="$select.search">
     </div>
     <div class="ui-select-choices"></div>
   </div>
